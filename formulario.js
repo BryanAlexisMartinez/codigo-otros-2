@@ -26,7 +26,7 @@ formulario.onsubmit = function(e) {
   if (edad < 18 || edad > 120) {
     e.classList.add("error");
   } else {
-    e.classList.remove("error"); // Quitamos la clase de error si se proporciona una edad válida
+    e.classList.remove("error"); 
   }
 
 
